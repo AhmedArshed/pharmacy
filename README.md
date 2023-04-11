@@ -6,13 +6,13 @@ This is a web scraper that extracts email addresses and URLs from the sitemap of
 
 To install the required packages, simply run the following command in your terminal:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 **Usage**
 
 To run the scraper and fetch all the URLs from the sitemap, navigate to the pharmacy/pharmacy/spiders directory in your terminal and run the following command:
 
-scrapy crawl pharmacy
+```scrapy crawl pharmacy```
 
 This will start the scraper and output all the URLs found in the sitemap. The output will be in csv format.
 
